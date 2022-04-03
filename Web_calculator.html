@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="DonJanta">
+<meta name="description" content="A simple calculator">
+<meta name="keywords" content="Calculator">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="calc.css">
+<title>Web Calculator</title>
+</head>
+<body>
+<div id="divcalculator" align="center">
+<div class="divdisplay" id="divdisplay2"></div>
+<div class="divdisplay" id="divdisplay1">0</div>
+<div id="sign"></div>
+<table>
+<tr>
+<td><button onclick="btn1()">1</button></td>
+<td><button onclick="btn2()">2</button></td>
+<td><button onclick="btn3()">3</button></td>
+<td><button onclick="clearAll()">C</button></td>
+</tr>
+<tr>
+<td><button onclick="btn4()">4</button></td>
+<td><button onclick="btn5()">5</button></td>
+<td><button onclick="btn6()">6</button></td>
+<td><button onclick="activateadd()">+</button></td>
+</tr>
+<tr>
+<td><button onclick="btn7()">7</button></td>
+<td><button onclick="btn8()">8</button></td>
+<td><button onclick="btn9()">9</button></td>
+<td><button onclick="activatesub()">–</button></td>
+</tr>
+<tr>
+<td><button onclick="btnpoint()">•</button></td>
+<td><button onclick="btn0()">0</button></td>
+<td><button onclick="btnplusminus()">±</button></td>
+<td><button onclick="activatemult()">×</button></td>
+</tr>
+<tr>
+<td><button onclick="btnsqr()">x²</button></td>
+<td><button onclick="btnpow()">^</button></td>
+<td><button onclick="btnsqrt()">√</button></td>
+<td><button onclick="activatediv()">÷</button></td>
+</tr>
+</table>
+<div id="calc"> <button id="calcbtn" onclick="signinactive(); calc();">=</button></div>
+</div>
+<script src ="calc.js">
+</script>
+</body>
+</html>

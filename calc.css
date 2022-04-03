@@ -1,0 +1,40 @@
+div.divdisplay{
+	width: 120px;
+	height: 20px;
+	background-color: rgb(30, 144, 255);
+	color: white;
+	font-size: 12px;
+	text-align: right;
+	overflow-y: auto;
+}
+#divdisplay2{
+	margin-top: 10px;
+	border-radius: 5px 5px 0px 0px;
+}
+#sign{
+	display: inline-block;
+	color: white;
+	background-color: black;
+	width: 120px;
+	height: 15px;
+	margin-top: 3px;
+	border-radius: 15px;
+	font-size: 12px;
+	/*text-align: left;*/
+}
+#divcalculator{
+	border: 5px inset gray;
+	width: 130px;
+	border-radius: 15px;
+	padding: 2px;
+	}
+button{
+	width: 25px;
+	background-color: maroon;
+	color: white;
+	border-radius: 5px;
+}
+#calcbtn{
+	width: 110px;
+	margin-bottom: 10px;
+}
